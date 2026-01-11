@@ -2,7 +2,7 @@
 ------------------------------------------------------
 
 ## 1) Objective:
-Create a local knowledge based of a curated set of corpus of PDFs. Interest is in finding specific conceptual entities/relationships within and between documents.
+Create a local knowledge base from a curated set of PDFs. Interest is in finding specific conceptual entities/relationships within and between documents.
 
 ## 2) Problem:
 Local hardware has 32GB RAM, Intel Iris Xe and no dedicated GPU.
