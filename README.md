@@ -8,7 +8,16 @@ Create a local knowledge base from a curated set of PDFs. Interest is in finding
 Local hardware has 32GB RAM, Intel Iris Xe and no dedicated GPU.
 
 ## 3) Solution:
-PDF curation [Zotero] → Export → Local PDF extraction [OlmoCR] → Cloud GPU indexing [Lambda Labs] → Local querying [qwen2.5:7b-instruct]
+1st CONCEPT: PDF curation [Zotero] → Export → Local PDF extraction [OlmoCR] → Cloud GPU indexing [Lambda Labs] → Local querying [qwen2.5:7b-instruct]
+
+1st IMPLEMNTATION:
+| Objective | Main Tool | Pipeline | Tokens per sec | Run time | Cost | Evaluation |
+|-----------|-----------|----------|----------------|------------|------------|------------|
+| Simple, integrated| AnythingLLM          | 60 PDFs insert → Lance DB → nomic-embed-text → llama3.1:8b-instruct-q4_K_M         |       2.4         | 18h 37 min           | $0 E | xtreemly slow and low complexity of anwsers
+| Simple, sequential          |  60 PDFs insert → PaperMage → ChroneDB → GPT4All → Phi-3.5-MoE          |          |                |            |           |             |
+|           |           |          |                |            |           |             |     
+|           |           |          |                |            |           |             |
+|           |           |          |                |            |           |             |
 
 ## 4) Cost:
 ~$5-7 total
