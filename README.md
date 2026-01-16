@@ -13,8 +13,8 @@ Local hardware has 32GB RAM, Intel Iris Xe and no dedicated GPU.
 1st IMPLEMNTATION:
 | Objective | Main Tool | Pipeline | Tokens per sec | Run time | Cost | Evaluation |
 |-----------|-----------|----------|----------------|------------|------------|------------|
-| Simple, integrated| AnythingLLM          | 60 PDFs insert → Lance DB → nomic-embed-text → llama3.1:8b-instruct-q4_K_M         |       2.4         | 18h 37 min           | $0 E | xtreemly slow and low complexity of anwsers
-| Simple, sequential          |  60 PDFs insert → PaperMage → ChroneDB → GPT4All → Phi-3.5-MoE          |          |                |            |           |             |
+| Simple, integrated| AnythingLLM          | 60 PDFs insert → Lance DB → nomic-embed-text → llama3.1:8b-instruct-q4_K_M         |       2.4         | 18h 37 min           | $0  | Extreemly slow and low complexity of anwsers
+| Simple, sequential          |  GPT4All         | 60 PDFs insert → PaperMage → ChroneDB → GPT4All → Phi-3.5-MoE-instruct-Q3_K_M           |                |            |           |             |
 |           |           |          |                |            |           |             |     
 |           |           |          |                |            |           |             |
 |           |           |          |                |            |           |             |
