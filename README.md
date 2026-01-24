@@ -17,7 +17,7 @@ Local hardware has 32GB RAM, Intel Iris Xe and no dedicated GPU.
 | Simple, sequential          |  GPT4All         | 60 PDFs insert → PaperMage → ChroneDB → GPT4All → Phi-3.5-MoE-instruct-Q3_K_M           |                |            |           |             |
 |           |           |      Vectorless-Reasoning-based RAG    |                |            |           |             |     
 |           |           |  Graph RAG         |                |            |           |             |
-|           |           |          |                |            |           |             |
+|           |           |     PageIndex Reasoning-based RAG     |                |            |           |             |
 
 ## 4) Cost:
 ~$5-7 total
