@@ -19,6 +19,6 @@ Local hardware has 32GB RAM, Intel Iris Xe and no dedicated GPU.
 |           |           |  Graph RAG         |                |            |           |             |
 |           |           |     PageIndex Reasoning-based RAG     |                |            |           |             |
 | Extremly simple, semi-integrated   | NotebookLM MCP      | 60 PDFs insert → NotebookLM RAG → NotebookLM MCP → Gemini CLI + Co-Research Agent   |                218   |            |    Tokens cost       |  Easy set-up and reliable answers       |
-
+| Extremly simple, semi-integrated   | NotebookLM MCP      | 60 PDFs insert → NotebookLM RAG → NotebookLM MCP → Gemini CLI + Co-Research Agent + Obsidian vault as shared memory for agents |                218   |            |    Tokens cost       |  Easy set-up, agentic tasks and reliable answers       |
 ## 4) Cost:
 ~$5-7 total
